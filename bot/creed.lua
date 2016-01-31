@@ -220,126 +220,74 @@ function create_config( )
     "lock_link",
     "all"
     },
-    sudo_users = {120518968,132472033},--Sudo users
+    sudo_users = {94477327,94389886},--Sudo users
     disabled_channels = {},
     realm = {},--Realms Id
     moderation = {data = 'data/moderation.json'},
-    about_text = [[Creed bot 2.0
-    
-     Hello my Good friends 😀🖐🏻
-     
-    ‼️ this bot is made by : @creed_is_dead
-   〰〰〰〰〰〰〰〰
-   🚩 Our admins are : 
-   🔰 @sorblack_creed
-   🔰 @amircc_creed
-   🔰 @aria_creed
-   🔰 @alireza_mah_creed 
-   〰〰〰〰〰〰〰〰
-  ♻️ You can send your Ideas and messages to Us By sending them into bots account by this command :
-   
-   !feedback (your ideas and messages)
+    about_text = [[🔥 ħʍď ąɲţɨ-şpąʍʍ€ŕ 🔥 V3.8
+Manager: @Farzadhmd1 & Developer: @GenerousMan_Bot
 ]],
     help_text = [[
-Creed bots Help for mods : 😈
-Plugins : 🔻
-
-1. banhammer ⭕️
-Help For Banhammer👇
-
-!Kick @UserName 😜
-
-And You Can do It by Replay 🙈
-!Ban @UserName 〽️
-You Can Do It By Replay👌
-
-!Unban @UserName
-You Can Do it By Replay😱
-
-For Admins : 👇
-!banall @UserName or (user_id)😺
-you Can do it By Replay 👤
-
-!unbanall 🆔User_Id🆔
-〰〰〰〰〰〰〰〰〰〰
-2. GroupManager :🔹
-
-!Creategroup "GroupName" 🙈
-You Can CreateGroup With this command😱
-
-!setflood😃
-Set the group flood control🈹
-
-!settings ❌
-Watch group settings
-
-!owner🚫
-watch group owner
-
-!setowner user_id❗️
-You can set someone to the group owner‼️
-
-!modlist💯
-watch Group mods🔆
-
-!lock (bots-member-flood-photo-name-Arabic-english-tag-join-link)✅
-lock Something🚼
-
-!unlock (bots-member-flood-photo-name-Arabic-english-tag-join-link)✅
-Unlock Something🚼
-
-!rules 🆙 or !set rules🆗
-watch group rules or set
-!about or !set about 🔴
-!res @username🔘
-See UserInfo©
-
-!who♦️
-Get Ids Chat🔺
-
-!log 🎴
-get members id ♠️
-
-!all🔴
-this is like stats in a file🔸
-added !clink *
-and !glink :)
-〰〰〰〰〰〰〰〰
-Admins :®
-!add 😎
-You Can add the group to moderation.json😱
-
-!rem😏
-You Can Remove the group from mod.json⭕️
-
-!setgpowner (Gpid) user_id ⚫️
-from realm®®
-
-!addadmin 🔶
-set some one to global admin🔸
-
-!removeadmin🔘
-remove somone from global admin🔹
-〰〰〰〰〰〰〰〰〰〰〰
-3. Stats :©
-!stats creedbot (sudoers)✔️
-shows bt stats🔚
-
-!stats🔘
-shows group stats💲
-〰〰〰〰〰〰〰〰
-4. Feedback⚫️
-!feedback txt🔻◼️
-send maseage to admins via bot🔈
-〰〰〰〰〰〰〰〰〰〰〰
-5. Tagall◻️
-!tagall txt🔸
-will tag users©
-〰〰〰〰〰〰〰〰〰
-🔜 more plugins 
-⚠️ We are Creeds ... ⚠️
-our channel : @creedantispam_channel🔋
-You Can user both "!" & "/" for them🎧
+⚜لیست دستورات⚜
+1=sik
+برای حذف کردن از گروه با 
+(id)و(username)و(reply)
+انجام دهید
+2=ban
+برای حذف غیرقابل برگشت
+بن رامیتوانیدبا
+(id)و(username)و(reply)
+انجام دهید
+3=unban
+برای در اوردن از حذف غیرقابل برگشت
+این دستور را میتوانیدبا
+(id)و(username)و(reply)
+انجام دهید
+4=who
+لیست افراد گروه
+5=modlist
+لیست ادمین های گپ
+6=promote
+اضافه کردن ادمین به گپ
+7=demote
+حذف کردن ادمین از گپ
+8=sikme
+لفت دادن از گروه
+9=setphoto
+تعویض عکس گروه بعد از ارسال این دستور عکس را ارسال کنید
+10=setname 
+تعویض اسم ابتدا دستور را نوشته سپس یک فاصله گزاشته و بعد اسم جدید را تایپ کنید
+11=id
+گرفتن ایدی فقط با رپلی روی پیام شخص
+12=lock
+name_member_bots_arabic_photo_flood
+برای قفل کردن اسم و عکس و ربات و ادد و  زبان فارسی و اسپم به کار میرود
+ 13=unlock
+name_member_bots_arabic_photo_flood
+برای حذف قفل اسم و عکس و ربات و ادد و  زبان فارسی و اسپم  به کار میرود
+14=newlink
+برای تعویض لینک به کار میرود
+15=link
+برای گرفتن لینک به کار میرود
+16=setflood 5_20
+برای تنظیم تعداد پیام اسپم برای کیک کردن خودکار
+17_clean
+member_modlist_rulesبرای پاک کردن دسته جمعی:اعضا و ادمین ها و قانون
+18=res @username
+برای گرفتن ایدی از طریق یوزر نیم
+19=banlist
+اسامی افراد بن شده از گپ
+20=settings
+مشاهده تنظیمات گروه
+🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷🔷
+توجه
+1⃣ شما میتوانید اول دستورات
+!_/_#_@_$_خالی
+بگزارید
+2⃣ادمین ها میتوانند
+کیک+بن+آن بن+تعویض لینک+گرفتن لینک+عوض کردن اسم+عوض کردن عکس+تمامی قفل ها+حذف تمامی قفل ها+گزاشتن قانون
+3⃣اونر ها میتوانند کل کار های ادمین هارا انجام دهند+ادمین کردن+حذف ادمین 
+🔥 ħʍď ąɲţɨ-şpąʍʍ€ŕ 🔥
 ]]
 
   }
